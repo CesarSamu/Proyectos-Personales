@@ -14,7 +14,7 @@ public class Main {
         Operaciones.ObtenerDatos ObMatriz = new Operaciones.ObtenerDatos();
 
         do{
-            System.out.println("\nElija una opción: adwdadw"+
+            System.out.println("\nElija una opción:"+
             "\n1. Suma"+"\n2. Resta"+
             "\n3. Multiplicación por escalar"+"\n4. Multiplicación de matrices"+
             "\n5. Transposición de matrices"+"\n6. Determinante de una matriz"+
