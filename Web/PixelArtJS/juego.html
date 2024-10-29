@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/CSS/style.css">
+    <title>R-Place</title>
+</head>
+<body>
+    <header>
+        <h1>r/Place</h1>
+        <img src="" id="planFoto" width="85px">
+        <img src="/img/logout.svg" id="logout" class="logout">
+    </header>
+
+    <main>
+        <div class="inputs">
+            <input data-jscolor="{}" value="#000000" id="selectorColor">
+            <button id="reset" class="delete">Delete All</button>
+            <img src="/img/pincel.png" class="button buttonActive" id="pincel" title="Pencil (B)">
+            <img src="/img/borra.png" class="button" id="borra" data-tool="inactive" title="Eraser (E)">
+            <label for="coso3x3">3x3</label>
+            <input type="checkbox" class="coso3x3" id="coso3x3">
+        </div>
+
+        <div id="mainContainer" class="mainContainer">
+            <div id="pixel-grid"></div>
+        </div>
+
+        <button id="btnDescarga"><span>Descargar</span></button>
+    </main>
+
+    <footer>
+        <center><p>Proyecto hecho para feria del arte.</p></center>
+    </footer>
+
+    <section class="modal" id="modal">
+        <div class="modal_container">
+            <div class="nombre">
+                <label>Nombre del archivo</label>
+                <input type="text" id="nombre">
+            </div>
+            <div class="formato">
+                <label>Formato de imágen</label>
+                <select id="formato">
+                    <option value="png">png</option>
+                    <option value="jpg">jpg</option>
+                    <option value="svg">svg</option>
+                </select>
+            </div>
+
+            <div class="cajaDeBotones">
+                <img id="cerrarLaWebada" src="/img/cancel.svg" class="boton" width="70px">
+                <img id="descargarLaWebada" src="/img/check.svg" class="boton" width="70px">
+            </div>
+            <img id="" src="">
+        </div>
+    </section>
+
+    <script src="/JS/noPuedoPensar.js"></script>
+    <script src="/JS/jscolor.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+    <script src="/JS/jotaese.js"></script>
+</body>
+</html>
